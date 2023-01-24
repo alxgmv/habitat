@@ -22,16 +22,16 @@ var APP_DATA = {
           "size": 2048
         }
       ],
-      "faceSize": 2000,
+      "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0.032813581844092,
-        "pitch": 0.049447622159256355,
-        "fov": 1.3268945324871384
+        "yaw": -0.022781227334238707,
+        "pitch": -0.0698772365446878,
+        "fov": 1.403086486818207
       },
       "linkHotspots": [
         {
-          "yaw": -0.2051990507385053,
-          "pitch": 0.13577408078045217,
+          "yaw": -0.19498973562708066,
+          "pitch": 0.15603377443510524,
           "rotation": 0,
           "target": "3-main-interior"
         }
@@ -68,16 +68,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.0307310344391745,
-          "pitch": 0.19815382620320499,
-          "rotation": 0,
-          "target": "3-main-interior"
-        },
-        {
-          "yaw": -2.8402833723555005,
-          "pitch": 0.09715554834845008,
+          "yaw": -2.833540695601318,
+          "pitch": 0.08546720249501227,
           "rotation": 0,
           "target": "2-living-room"
+        },
+        {
+          "yaw": 2.1042049990774965,
+          "pitch": 0.04754498237829807,
+          "rotation": 0,
+          "target": "3-main-interior"
         }
       ],
       "infoHotspots": []
@@ -112,8 +112,8 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.2754561618968268,
-          "pitch": 0.22785677051875908,
+          "yaw": -1.1384376402106824,
+          "pitch": 0.11259213456249739,
           "rotation": 0,
           "target": "1-laboratory"
         }
@@ -150,22 +150,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.869169732267114,
-          "pitch": 0.06798655672435316,
-          "rotation": 0,
-          "target": "1-laboratory"
-        },
-        {
-          "yaw": 0.47924421236821146,
-          "pitch": 0.11493310604069151,
+          "yaw": 0.4764094010181239,
+          "pitch": 0.11417499515193974,
           "rotation": 0,
           "target": "0-exterior"
+        },
+        {
+          "yaw": -2.8478966559155925,
+          "pitch": 0.11274259120143881,
+          "rotation": 0,
+          "target": "1-laboratory"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Habitat",
+  "name": "habitat",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
