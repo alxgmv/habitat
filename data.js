@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-exterior",
-      "name": "exterior",
+      "name": "Exterior",
       "levels": [
         {
           "tileSize": 256,
@@ -24,23 +24,23 @@ var APP_DATA = {
       ],
       "faceSize": 1500,
       "initialViewParameters": {
-        "yaw": 0.6640024253524892,
-        "pitch": -0.05374880767115009,
-        "fov": 1.3268945324871384
+        "yaw": 0.6022566737221311,
+        "pitch": -0.13478383286630802,
+        "fov": 1.403086486818207
       },
       "linkHotspots": [
         {
-          "yaw": -0.19498973562708066,
-          "pitch": 0.15603377443510524,
+          "yaw": -0.22545548219312828,
+          "pitch": 0.12908103308556207,
           "rotation": 0,
-          "target": "3-main-interior"
+          "target": "1-main-interior"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-laboratory",
-      "name": "laboratory",
+      "id": "1-main-interior",
+      "name": "Main interior",
       "levels": [
         {
           "tileSize": 256,
@@ -68,98 +68,98 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.833540695601318,
-          "pitch": 0.08546720249501227,
-          "rotation": 0,
-          "target": "2-living-room"
-        },
-        {
-          "yaw": 2.1042049990774965,
-          "pitch": 0.04754498237829807,
-          "rotation": 0,
-          "target": "3-main-interior"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-living-room",
-      "name": "living room",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.1384376402106824,
-          "pitch": 0.11259213456249739,
-          "rotation": 0,
-          "target": "1-laboratory"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-main-interior",
-      "name": "main interior",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.4764094010181239,
-          "pitch": 0.11417499515193974,
+          "yaw": 0.4786344500361768,
+          "pitch": 0.11605525893459046,
           "rotation": 0,
           "target": "0-exterior"
         },
         {
-          "yaw": -2.8478966559155925,
-          "pitch": 0.11274259120143881,
+          "yaw": -2.847116730805297,
+          "pitch": 0.12981646551557802,
           "rotation": 0,
-          "target": "1-laboratory"
+          "target": "2-laboratory"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-laboratory",
+      "name": "Laboratory",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.936060233183664,
+          "pitch": 0.09773925008465056,
+          "rotation": 0,
+          "target": "3-living-area"
+        },
+        {
+          "yaw": 2.129553900668112,
+          "pitch": 0.06954931454447788,
+          "rotation": 0,
+          "target": "1-main-interior"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-living-area",
+      "name": "Living area",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1500,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.6266258645869236,
+          "pitch": 0.0884691497026111,
+          "rotation": 0,
+          "target": "2-laboratory"
         }
       ],
       "infoHotspots": []
